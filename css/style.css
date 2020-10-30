@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  line-height: 1.6;
+  color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(73, 73, 223, 1) 37%,
+    rgba(77, 199, 223, 1) 100%
+  );
+}
+/* utilities */
+.container {
+  max-width: 1120px;
+  margin: auto;
+  padding: 4rem 0;
+  overflow: hidden;
+}
+
+.clock-wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0 25%;
+  height: 50vh;
+}
+
+.clock-wrapper div {
+  font-size: 4rem;
+  margin: 0 2rem;
+}
+
+#hr,
+#min,
+#sec {
+  transition: all 0.3s ease-in;
+}

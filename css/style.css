@@ -6,38 +6,37 @@
 
 h1 {
   font-size: 2rem;
-  margin: 1rem 0.5rem;
+  margin: 1rem 0;
+  text-align: center;
+  align-self: flex-start;
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
   color: #fff;
   background: linear-gradient(
     90deg,
     rgba(73, 73, 223, 1) 37%,
     rgba(77, 199, 223, 1) 100%
   );
+
+  transition: all 1s ease;
 }
 /* utilities */
-.container {
-  max-width: 1120px;
-  margin: auto;
-  padding: 4rem 0;
-  overflow: hidden;
-}
-
-.clock-wrapper {
+main {
   display: flex;
+  justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 0 25%;
-  height: 50vh;
+  flex-direction: column;
+  height: 80vh;
 }
 
-.clock-wrapper div {
-  font-size: 4rem;
-  margin: 0 2rem;
+.wrapper div {
+  font-size: 2.5rem;
+  margin: 0 2rem 2rem 0;
+  display: inline-block;
+  background-color: black;
+  padding: 1.3rem;
 }
 
 #hr,
